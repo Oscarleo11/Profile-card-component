@@ -1,0 +1,111 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    flex-direction: column;
+    position: relative;
+    z-index: 1; 
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+}
+hr{
+    opacity: 0.5;
+}
+
+p {
+    font-weight: 900;
+    color: black;
+}
+
+.LIST {
+    font-weight: 900;
+    color: black;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+}
+
+.container1 img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -60px; 
+}
+
+.container2 img {
+    width: 25%;
+    height: auto;
+    border-radius: 50px;
+    margin: auto;
+    border-color: #ffff;
+}
+
+.container3 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container3 li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 59%);
+    list-style: none;
+}
+
+.round {
+    background: hsl(185, 57%, 46%);
+    width: 800px;
+    height:700px; 
+    position: absolute; 
+    z-index: -1; 
+    border-radius: 50%;
+    margin-left: -900px;
+    margin-top: -600px;
+}
+
+.round2 {
+    background: hsl(185, 57%, 46%);
+    width: 800px; 
+    height:700px; 
+    position: absolute;
+    z-index: -1; 
+    border-radius: 50%;
+    margin-left: 1000px;
+    margin-bottom: -600px;
+    float: right;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
